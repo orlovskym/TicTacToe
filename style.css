@@ -1,0 +1,16 @@
+#gameBoard{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    background-color: blueviolet;
+    height: 40vh;
+    width: 40vw;
+    gap: 6px;
+}
+
+.gameSquare{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem
+}
